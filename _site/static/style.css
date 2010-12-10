@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Lucida, Geneva, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+        div#main {
+            width: 800px;
+            margin: auto;
+            text-align: justify;
+        }
+
+                ul#menu {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    border: none;
+                    text-align: right;
+                    font-size: 0.8em;
+                    letter-spacing: 0.05em;
+                    color: grey;
+                }
+
+                        #menu li {
+                            display: inline;
+                            margin: 0;
+                        }
+
+                img#header {
+                    margin-top: 10px;
+                }
+
+                div#content {
+                    background: #101010;
+                    padding: 10px;
+                    margin-top: 5px;
+                }
+
+                        div#related {
+                            background: #202020;
+                            padding: 10px;
+                            font-size: 0.9em;
+                            margin-top: 10px;
+                        }
+
+                        div#related h4 {
+                            margin: 0;
+                            font-size: 1.1em;
+                        }
+
+                        hr {
+                            height: 1px;
+                            border: 0;
+                            background: #ffffff;
+                        }
+
+                        .highlight {
+                            background: #000000;
+                            padding: 10px;
+                        }
+
+                        /* thanks to tomafro.net for these colours */
+
+                        .s1, .s2, .sx, .mi {
+                            color: #aec4eb;
+                        }
+
+                        .nb, .k, .o, .kp {
+                            color: #c4ebae;
+                        }
+
+                        .ss {
+                            color: #ffcf87;
+                        }
+
+                        .nf {
+                            color: #ffffa0;
+                        }
+
+                        .vi {
+                            color: #ff9f9d;
+                        }
+
+                        .c, .c1 {
+                            color: #a0a0a0;
+                        }
+
+                        h1, h2, h3, h4, h5 {
+                            margin: 0;
+                        }
+
+                        h1 {
+                            color: lightgreen;
+                            text-align: right;
+                            border-bottom: 1px solid lightgreen;
+                            margin: 0;
+                            margin-bottom: 10px;
+                        }
+
+                        .quote {
+                            padding: 2px;
+                            margin: 2px;
+                        }
+
+                div#footer {
+                    text-align: right;
+                    font-size: 0.8em;
+                    color: LightGrey;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-weight: bold;
+                }
+
+                a:hover {
+                    color: grey;
+                }

@@ -1,0 +1,23 @@
+---
+layout: default
+title: homepage
+---
+
+<div class="activity">
+  <h4>Recent activity</h4>
+  <table class="archive">
+    {% for post in site.posts offset:0 limit:5 %}
+    <tr>
+      <td class="first">{{ post.date | date:"%b %d, %Y" }}</td>
+      <td>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      (posted in {{ post.categories | array_to_sentence_string }})
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+  <p>
+    See the <a href="archives.html">archives</a> for more.
+  </p>
+</div>
+

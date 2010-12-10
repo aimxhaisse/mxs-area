@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MxS' area - {{ page.title }}</title>
+    <link type="text/css" rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <ul id="menu">
+        | <li><a href="/index.html">home</a></li>
+        | <li><a href="/blog.html">blog</a></li>
+        | <li><a href="/articles.html">articles</a></li>
+        | <li><a href="/quotes.html">quotes</a></li>
+        | <li><a href="/snippets.html">snippets</a></li>
+        | <li><a href="/bookmarks.html">bookmarks</a></li>
+        | <li><a href="/archives.html">archives</a></li>
+        | <li><a href="/about.html">about</a></li>
+        |
+      </ul>
+      <img id="header" alt="2001, a space odyssee" src="/static/header.png" />
+
+      <div id="content">
+
+        <a href="{{page.url}}">
+          <h1>{{page.title | capitalize}}</h1>
+        </a>
+        {% if page.date and page.categories %}
+        {{ page.date | date:"%b %d, %Y" }} (posted in {{ page.categories | array_to_sentence_string }})
+        {% endif %}
+
+<!-- ------------------------------------------------------------ -->
+{{content}}
+<!-- ------------------------------------------------------------ -->
+
+{% if site.related_posts %}
+<div id="related">
+  <h4>Related content</h4>
+  <hr />
+  {% for post in site.related_posts %}
+  >> <a href="{{post.url}}">{{post.title}}</a><br />
+  {% endfor %}
+</div>
+{% endif %}
+
+      </div>
+      <div id="footer">S&eacute;bastien Rannou, 2010</div>
+    </div>
+  </body>
+</html>
