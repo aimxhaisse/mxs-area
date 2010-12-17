@@ -25,7 +25,7 @@ module Jekyll
     def render(context)
       html = ""
       html << "<p>"
-      html << "<a href=\"#{@link}\">View this page in english</a>"
+      html << "<a href=\"#{@link}\">Voir cette page en anglais</a>"
       html << "</p>"
       html
     end

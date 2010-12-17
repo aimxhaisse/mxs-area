@@ -1,7 +1,7 @@
 body {
     background-color: black;
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Lucida, Geneva, Helvetica, Arial, sans-serif;
+    font-family: 'Trebuchet MS',Verdana,Tahoma,sans-serif;
     text-align: center;
 }
 
@@ -36,6 +36,26 @@ body {
                     padding: 10px;
                     margin-top: 5px;
                 }
+
+
+                        h1 {
+                            font-family: Verdana;
+                            font-size: 1.1em;
+                        }
+
+                        .box {
+                            background: #202020;
+                            padding: 10px;
+                        }
+
+                        a img {
+                            border: none;
+                        }
+
+                        img#profile {
+                            float: right;
+                            margin-left: 10px;
+                        }
 
                         div#related {
                             background: #202020;
@@ -84,10 +104,6 @@ body {
 
                         .c, .c1 {
                             color: #a0a0a0;
-                        }
-
-                        h1, h2, h3, h4, h5 {
-                            margin: 0;
                         }
 
                         h1 {

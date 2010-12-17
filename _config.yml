@@ -1,11 +1,11 @@
 safe:        false
 server:      true
-lsi:         true
+lsi:         false
 auto:        true
 server_port: 8080
 source:      .
 destination: ./_site
 pygments:    true
 permalink:   /:categories/:title.html
-exclude:     [Makefile, .gitignore]
+exclude:     [Makefile, .gitignore, push.sh]
 plugins:     ./_plugins

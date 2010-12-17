@@ -4,8 +4,8 @@ layout: default
 categories: [en, blog]
 ---
 
-I've been writing a short response to the
-questionnaire on Net neutrality issued by
+I've been writing [a short response](/static/data/net_neutrality.pdf)
+to the questionnaire on Net neutrality issued by
 the European Commission. I only tried to
 answer a few questions as I hadn't much
 time, and as I was not able to formulate

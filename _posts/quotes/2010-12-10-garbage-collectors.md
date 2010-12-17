@@ -4,6 +4,7 @@ categories: [en, quotes]
 layout: default
 ---
 
-    If Java had true garbage collection, most programs would delete themselves upon execution.
+_If Java had true garbage collection, most programs would delete
+themselves upon execution._
 
 --- Robert Sewell
