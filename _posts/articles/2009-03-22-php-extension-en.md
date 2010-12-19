@@ -174,11 +174,43 @@ PHP_FUNCTION(pyramid)
 }
 {% endhighlight %}
 
-{% highlight bash %}
-{% endhighlight %}
+It simply outputs a pyramid according to a size, and returns the
+number of characters printed. Now we have to compile it with PHP,
+for that we need to re-build the configure script so as to have the
+option __--enable-pyramid__:
 
 {% highlight bash %}
+$ pwd
+/tmp/php-5.2.9
+$ ./buildconf --force
+$ ./configure --prefix=/tmp/php-devel --enable-pyramid
 {% endhighlight %}
 
+Finally, we can build it:
+
 {% highlight bash %}
+$ make
+$ make install
 {% endhighlight %}
+
+Now we have a PHP version with our extension, let's test it:
+
+{% highlight bash %}
+$ pwd
+/tmp/php-devel/bin
+$ cat test.phpvar_dump(pyramid());
+?>$ ./php test.php
+         +
+        +++
+       +++++
+      +++++++
+     +++++++++
+    +++++++++++
+   +++++++++++++
+  +++++++++++++++
+ +++++++++++++++++
++++++++++++++++++++
+int(145)
+{% endhighlight %}
+
+Yaw!
