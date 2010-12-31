@@ -1,4 +1,5 @@
 safe:        false
+plugins:     ./_plugins
 server:      true
 lsi:         false
 auto:        false
@@ -8,4 +9,3 @@ destination: ./_site
 pygments:    true
 permalink:   /:categories/:title.html
 exclude:     [Makefile, .gitignore, push.sh]
-plugins:     ./_plugins
