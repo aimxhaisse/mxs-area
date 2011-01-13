@@ -7,7 +7,7 @@ I recently went through a problem with two PHP scripts
 in what at first sight looked like a bug. Basically, I
 wanted a script __a.php__ to update some $_SESSION values
 of another script __b.php__ using the same session file.
-As I didn't wanted to have a heavy dependance between both
+As I didn't want to have a heavy dependance between both
 scripts, I ended up using CURL, and calling b.php from a.php:
 
 {% highlight php %}

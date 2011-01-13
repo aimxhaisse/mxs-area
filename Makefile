@@ -4,4 +4,3 @@ all:	clean
 clean:
 	rm -rf _site/*
 	cp -R static _site/
-
