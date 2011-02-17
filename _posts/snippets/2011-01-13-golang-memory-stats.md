@@ -1,5 +1,5 @@
 ---
-title: How to get stats from memory in Golang
+title: How to get statistics about memory in Golang
 layout: default
 categories: [snippets, en]
 ---
