@@ -1,1 +1,1 @@
-scp -r _site/* buffout.org:www/root/
+scp -r _site/* buffout.org:public/htdocs/
