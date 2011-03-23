@@ -1,11 +1,11 @@
 ---
 layout: default
-title: quotes
+title: citations
 ---
 
-{% langfr /quotes_fr.html %}
+{% langen /quotes.html %}
 
-{%for post in site.categories.quote_en limit:20%}
+{%for post in site.categories.quote_fr limit:20%}
 <div class="item">
   <h4><a href="{{post.url}}">{{post.title}}</a></h4>
   {{post.content}}

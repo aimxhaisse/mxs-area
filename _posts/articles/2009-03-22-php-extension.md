@@ -1,6 +1,6 @@
 ---
 title: How to create a PHP extension
-categories: [en, articles]
+categories: [en, article_en]
 layout: default
 ---
 There's an easy way to embed C code into PHP by creating extensions. 

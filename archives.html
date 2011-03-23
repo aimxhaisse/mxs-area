@@ -7,13 +7,29 @@ layout: default
   This page traces the overall activity of the website.
 </p>
 
+<h2>Content in English</h2>
+
 <table class="archive">
-  {% for post in site.posts %}
+  {% for post in site.categories.en %}
   <tr>
     <td class="first">{{ post.date | date:"%b %d, %Y" }}</td>
     <td>
       <a href="{{ post.url }}">{{ post.title }}</a>
       (posted in {{ post.categories | array_to_sentence_string }})
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+
+<h2>Content in French</h2>
+
+<table class="archive">
+  {% for post in site.categories.fr %}
+  <tr>
+    <td class="first">{{ post.date | date:"%b %d, %Y" }}</td>
+    <td>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      (posté dans {{ post.categories | array_to_sentence_string }})
     </td>
   </tr>
   {% endfor %}

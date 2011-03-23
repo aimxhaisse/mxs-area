@@ -1,6 +1,6 @@
 ---
 title: Anonymity
-categories: [en, quotes]
+categories: [en, quote_en]
 layout: default
 ---
 

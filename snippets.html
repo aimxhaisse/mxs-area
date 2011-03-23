@@ -2,8 +2,11 @@
 title: snippets
 layout: default
 ---
+
+{% langfr /snippets_fr.html %}
+
 <table class="archive">
-  {% for post in site.categories.snippets offset:0 limit:10 %}
+  {% for post in site.categories.snippet_en offset:0 limit:10 %}
   <tr>
     <td class="first">{{ post.date | date:"%b %d, %Y" }}</td>
     <td>

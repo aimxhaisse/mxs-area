@@ -3,7 +3,7 @@ body {
     color: white;
     font-family: 'Trebuchet MS',Verdana,Tahoma,sans-serif;
     text-align: center;
-    font-size: 14px;
+    font-size: 80%;
 }
 
         div#main {
@@ -38,10 +38,20 @@ body {
                     margin-top: 5px;
                 }
 
-
                         h1 {
-                            font-family: Verdana;
-                            font-size: 1.1em;
+                            font-size: 150%;
+                        }
+
+                        h2 {
+                            font-size: 130%;
+                        }
+
+                        h3 {
+                            font-size: 110%;
+                        }
+
+                        h4 {
+                            font-size: 100%;
                         }
 
                         .box {
@@ -105,14 +115,6 @@ body {
 
                         .c, .c1 {
                             color: #a0a0a0;
-                        }
-
-                        h1 {
-                            color: lightgreen;
-                            text-align: right;
-                            border-bottom: 1px solid lightgreen;
-                            margin: 0;
-                            margin-bottom: 10px;
                         }
 
                         .quote {

@@ -1,6 +1,6 @@
 ---
 title: How to paste code from emacs
-categories: [en, snippets]
+categories: [en, snippet_en]
 layout: default
 ---
 

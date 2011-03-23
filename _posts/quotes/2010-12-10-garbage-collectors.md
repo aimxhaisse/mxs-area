@@ -1,6 +1,6 @@
 ---
 title: Java's garbage collector
-categories: [en, quotes]
+categories: [en, quote_en]
 layout: default
 ---
 

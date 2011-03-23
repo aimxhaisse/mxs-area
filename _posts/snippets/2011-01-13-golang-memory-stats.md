@@ -1,7 +1,7 @@
 ---
 title: How to get statistics about memory in Golang
+categories: [en, snippet_en]
 layout: default
-categories: [snippets, en]
 ---
 
 I recently played with [golang](http://golang.org/) and was a bit surprised

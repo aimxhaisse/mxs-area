@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 module Jekyll
   class LangFrTag < Liquid::Tag
     
@@ -9,7 +10,7 @@ module Jekyll
     def render(context)
       html = ""
       html << "<p>"
-      html << "<a href=\"#{@link}\">View this page in french</a>"
+      html << "<a href=\"#{@link}\">View in French/Lire en Français</a>"
       html << "</p>"
       html
     end
@@ -25,7 +26,7 @@ module Jekyll
     def render(context)
       html = ""
       html << "<p>"
-      html << "<a href=\"#{@link}\">Voir cette page en anglais</a>"
+      html << "<a href=\"#{@link}\">View in English/Lire en Anglais</a>"
       html << "</p>"
       html
     end

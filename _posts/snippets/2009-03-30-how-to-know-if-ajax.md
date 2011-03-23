@@ -1,7 +1,7 @@
 ---
 title: How to know if a request comes from AJAX in PHP
+categories: [en, snippet_en]
 layout: default
-categories: [snippets, en]
 ---
 
 It's sometimes necessary to know if a request comes from AJAX,

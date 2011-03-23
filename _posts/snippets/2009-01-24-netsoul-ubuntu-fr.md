@@ -1,7 +1,7 @@
 ---
 title: Installer le plugin netsoul de pidgin sous Ubuntu
+categories: [fr, snippet_fr]
 layout: default
-categories: [fr, snippets]
 ---
 
 {% langen /en/snippets/netsoul-ubuntu-en.html %}

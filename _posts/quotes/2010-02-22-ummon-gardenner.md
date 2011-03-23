@@ -1,6 +1,6 @@
 ---
 title: Ummon and the gardener
-categories: [en, quotes]
+categories: [en, quote_en]
 layout: default
 ---
 

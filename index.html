@@ -3,7 +3,6 @@ layout: default
 title: homepage
 ---
 
-<h3>What is this place?</h3>
 <div class="box">
   <i>
     There once was a master programmer who wrote unstructured programs.
@@ -19,11 +18,11 @@ title: homepage
 <h3>Recent activity</h3>
 
 <table class="archive">
-  {% for post in site.posts offset:0 limit:10 %}
+  {% for post in site.categories.en offset:0 limit:10 %}
   <tr>
     <td class="first">{{ post.date | date:"%b %d, %Y" }}</td>
     <td>
-        <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </td>
   </tr>
   {% endfor %}

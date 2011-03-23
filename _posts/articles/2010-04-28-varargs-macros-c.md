@@ -1,6 +1,6 @@
 ---
 title: Handling variadic arguments with macros in C
-categories: [en, articles]
+categories: [en, article_en]
 layout: default
 ---
 

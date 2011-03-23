@@ -1,6 +1,6 @@
 ---
 title: Retrieve booleans settings from PHP's configuration
-categories: [en, snippets]
+categories: [en, snippet_en]
 layout: default
 ---
 

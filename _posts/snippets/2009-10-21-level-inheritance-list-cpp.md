@@ -1,7 +1,7 @@
 ---
 title: Inheritance level in c++
+categories: [en, snippet_en]
 layout: default
-categories: [en, snippets]
 ---
 I've been looking for a way to know the level of a class in an
 inheritance list in C++, here is a quick and dirty solution using a

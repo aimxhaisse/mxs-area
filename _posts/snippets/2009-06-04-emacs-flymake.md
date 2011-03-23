@@ -1,6 +1,6 @@
 ---
 title: Using flymake with emacs
-categories: [en, snippets]
+categories: [en, snippet_en]
 layout: default
 ---
 Emacs doesn't handle by default error detection

@@ -1,7 +1,7 @@
 ---
 title: Backtracing C function calls
+categories: [en, article_en]
 layout: default
-categories: [en, articles]
 ---
 
 ## Introduction

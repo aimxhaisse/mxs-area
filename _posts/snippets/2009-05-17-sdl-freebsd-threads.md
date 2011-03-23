@@ -1,6 +1,6 @@
 ---
 title: SDL, FreeBSD and threads
-categories: [en, snippets]
+categories: [en, snippet_en]
 layout: default
 ---
 I've recently played with SDL and its thread API

@@ -1,0 +1,76 @@
+---
+title: The attic
+layout: default
+---
+
+{% langfr /attic_fr.html %}
+
+<h2>Code</h2>
+
+<table class="archive">
+  {% for post in site.categories.code_en offset:0 limit:10 %}
+  <tr>
+    <td class="first">{{ post.date | date:"%b %d, %Y" }}</td>
+    <td>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      (posted in {{ post.categories | array_to_sentence_string }})
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+
+<h2>Websites</h2>
+
+<table class="archive">
+  {% for post in site.categories.website_en offset:0 limit:10 %}
+  <tr>
+    <td class="first">{{ post.date | date:"%b %d, %Y" }}</td>
+    <td>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      (posted in {{ post.categories | array_to_sentence_string }})
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+
+<h2>Comics</h2>
+
+<table class="archive">
+  {% for post in site.categories.comic_en offset:0 limit:10 %}
+  <tr>
+    <td class="first">{{ post.date | date:"%b %d, %Y" }}</td>
+    <td>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      (posted in {{ post.categories | array_to_sentence_string }})
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+
+<h2>Sandbox</h2>
+
+<table class="archive">
+  {% for post in site.categories.sandbox_en offset:0 limit:10 %}
+  <tr>
+    <td class="first">{{ post.date | date:"%b %d, %Y" }}</td>
+    <td>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      (posted in {{ post.categories | array_to_sentence_string }})
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+
+<h2>Randoms</h2>
+
+<table class="archive">
+  {% for post in site.categories.random_en offset:0 limit:10 %}
+  <tr>
+    <td class="first">{{ post.date | date:"%b %d, %Y" }}</td>
+    <td>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      (posted in {{ post.categories | array_to_sentence_string }})
+    </td>
+  </tr>
+  {% endfor %}
+</table>

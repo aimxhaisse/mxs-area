@@ -1,7 +1,7 @@
 ---
 title: Introduction to boost test
+categories: [en, article_en]
 layout: default
-categories: [en, articles]
 ---
 
 ## Introduction

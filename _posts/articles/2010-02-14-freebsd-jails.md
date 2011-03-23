@@ -1,7 +1,7 @@
 ---
 title: FreeBSD and jails
+categories: [en, article_en]
 layout: default
-categories: [en, articles]
 ---
 
 ## Introduction

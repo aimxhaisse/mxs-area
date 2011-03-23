@@ -14,7 +14,7 @@ layout: nil
    <email>mxs@buffout.org</email>
  </author>
 
- {% for post in site.posts %}
+ {% for post in site.categories.en %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="http://mxs.buffout.org{{ post.url }}"/>

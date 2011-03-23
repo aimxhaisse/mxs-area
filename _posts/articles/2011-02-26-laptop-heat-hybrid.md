@@ -1,7 +1,7 @@
 ---
 title: Some solutions for overheated ATI laptops
+categories: [en, article_en]
 layout: default
-categories: [en, article]
 ---
 
 ## Introduction

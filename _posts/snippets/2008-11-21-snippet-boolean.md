@@ -1,7 +1,7 @@
 ---
 title: Trick to convert variables into booleans
+categories: [en, snippet_en]
 layout: default
-categories: [snippets, en]
 ---
 
 An ugly trick to convert any type into a boolean in languages without

@@ -1,6 +1,6 @@
 ---
 title: Boostrapping from the bios
-categories: [en, articles]
+categories: [en, article_en]
 layout: default
 ---
 

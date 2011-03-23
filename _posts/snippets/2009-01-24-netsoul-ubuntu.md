@@ -1,7 +1,7 @@
 ---
 title: How to install netsoul on Ubuntu
+categories: [en, snippet_en]
 layout: default
-categories: [en, snippets]
 ---
 
 {% langfr /fr/snippets/netsoul-ubuntu-fr.html %}

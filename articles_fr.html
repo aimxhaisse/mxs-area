@@ -3,10 +3,10 @@ title: articles
 layout: default
 ---
 
-{% langfr /articles_fr.html %}
+{% langfr /articles.html %}
 
 <table class="archive">
-  {% for post in site.categories.article_en offset:0 limit:10 %}
+  {% for post in site.categories.article_fr offset:0 limit:10 %}
   <tr>
     <td class="first">{{ post.date | date:"%b %d, %Y" }}</td>
     <td>

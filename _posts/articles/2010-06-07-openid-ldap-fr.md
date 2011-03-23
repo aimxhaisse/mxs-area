@@ -1,7 +1,7 @@
 ---
 title: OpenID et LDAP
+categories: [fr, article_fr]
 layout: default
-categories: [fr, articles]
 ---
 
 ## Description
