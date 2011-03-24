@@ -7,5 +7,5 @@ server_port: 8080
 source:      .
 destination: ./_site
 pygments:    true
-permalink:   /:categories/:title.html
+permalink:   /:month-:day-:year/:title.html
 exclude:     [Makefile, .gitignore, push.sh]

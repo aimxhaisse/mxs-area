@@ -4,7 +4,7 @@ categories: [en, snippet_en]
 layout: default
 ---
 
-{% langfr /fr/snippets/netsoul-ubuntu-fr.html %}
+{% langfr /01-24-2009/netsoul-ubuntu-fr.html %}
 
 There exists a pidgin plugin for netsoul, its installation
 is made for BSDs, and not well documented for Linux. 

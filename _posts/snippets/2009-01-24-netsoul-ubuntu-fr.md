@@ -4,7 +4,7 @@ categories: [fr, snippet_fr]
 layout: default
 ---
 
-{% langen /en/snippets/netsoul-ubuntu-en.html %}
+{% langen /01-24-2009/netsoul-ubuntu.html %}
 
 Il existe un plugin de [Pidgin](http://www.pidgin.im/ "Site de Pidgin")
 permettant de g&eacute;rer le prototole netsoul, mais son installation

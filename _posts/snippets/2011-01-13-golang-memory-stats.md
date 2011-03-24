@@ -17,7 +17,7 @@ display a graph. We'll need the following packages:
 
 So the first step is to import them:
 
-{% highlight go%}
+{% highlight go %}
 import (
 	"os"
 	"fmt"

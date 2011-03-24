@@ -142,5 +142,5 @@ Now to have a little diagnostic of what happened after a crash, without launchin
 you can redirect the signal to that function and use a tool which will print information
 about the return address (see the manual page of **addr2line**). An impressive use of this is
 made in [Varnish](http://varnish-cache.org/ "Varnish"), which executes __nm__ at its
-[startup](http://varnish-cache.org/browser/branches/2.1/varnish-cache/bin/varnishd/varnishd.c#L334 "varnish's backtrace")
+[startup](http://www.varnish-cache.org/trac/browser/bin/varnishd/varnishd.c#L238 "varnish's backtrace")
 to retrieve its symbol addresses.
